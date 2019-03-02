@@ -66,6 +66,10 @@ class TicTacToe
   def full?
     @board.all?{|game_space| game_space != " " }
   end
+  
+  def draw?
+    full? && !won?
+  end
 
 
 end

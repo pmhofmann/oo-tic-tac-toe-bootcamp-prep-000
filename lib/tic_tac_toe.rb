@@ -26,7 +26,8 @@ class TicTacToe
     @board[index] = player_symbol
   end
   
-  def position_taken?()
+  def position_taken?(index)
+    @board[index] != " "
 
 
 end

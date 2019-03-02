@@ -63,6 +63,9 @@ class TicTacToe
     end
   end
 
+  def full?
+    @board.all?{|game_space| game_space != " " }
+  end
 
 
 end

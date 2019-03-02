@@ -38,5 +38,6 @@ class TicTacToe
     @board.count{|game_space| game_space != " "}
   end
   
+  
 
 end
